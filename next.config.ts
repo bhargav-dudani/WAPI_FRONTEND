@@ -30,10 +30,10 @@ const nextConfig: NextConfig = {
   },
   reactStrictMode: false,
   env: {
-    NEXT_PUBLIC_API_URL: "https://your-backend-domain.com/api",
+    NEXT_PUBLIC_API_URL: "https://truepingapi.truesysfintech.com/api",
     NEXT_PUBLIC_API_BASE_URL: (process.env.NEXT_PUBLIC_BASE_PATH || "") + "/api",
-    NEXT_PUBLIC_STORAGE_URL: "https://your-backend-domain.com",
-    NEXT_PUBLIC_ADMIN_URL: "https://your-admin-domain",
+    NEXT_PUBLIC_STORAGE_URL: "https://truepingapi.truesysfintech.com",
+    NEXT_PUBLIC_ADMIN_URL: "https://truepingadmin.truesysfintech.com",
   },
   images: {
     remotePatterns: [
